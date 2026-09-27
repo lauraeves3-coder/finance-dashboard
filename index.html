@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Finance — Outubro 2026</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#f5f6f7;color:#17191c;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display",Arial,sans-serif}
+body{padding-bottom:30px}
+main{width:100%;max-width:680px;margin:0 auto;padding:18px 16px 30px}
+.top{display:flex;justify-content:space-between;align-items:flex-start;margin:8px 0 20px}
+.brand{font-size:13px;color:#7a8086;margin-bottom:3px}
+h1{font-size:29px;line-height:1.05;margin:0;font-weight:800;letter-spacing:-.7px}
+.month{font-size:12px;background:#fff;border:1px solid #e5e7e9;border-radius:10px;padding:9px 11px}
+.hero{background:#111315;color:#fff;border-radius:20px;padding:22px;margin-bottom:12px}
+.hero-label{font-size:11px;color:#aeb3b7;letter-spacing:.04em}
+.hero-value{font-size:34px;font-weight:800;margin-top:7px;letter-spacing:-1px}
+.hero-sub{font-size:11px;color:#aeb3b7;margin-top:7px}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px}
+.card{background:#fff;border:1px solid #e6e8ea;border-radius:15px;padding:15px;min-height:105px}
+.label{font-size:11px;color:#7a8086;line-height:1.3}
+.value{font-size:20px;font-weight:800;margin-top:8px;letter-spacing:-.3px}
+.green{color:#3f8647}.red{color:#d9534f}
+.note{font-size:10px;color:#858b90;margin-top:5px}
+.section{margin:20px 0}
+.section-title{font-size:17px;font-weight:800;margin:0 0 11px}
+.panel{background:#fff;border:1px solid #e6e8ea;border-radius:17px;padding:17px}
+.flow-row{margin-bottom:16px}.flow-row:last-child{margin-bottom:0}
+.flow-top{display:flex;justify-content:space-between;gap:10px;font-size:12px;margin-bottom:7px}
+.track{height:8px;background:#edf0f1;border-radius:20px;overflow:hidden}
+.fill{height:100%;border-radius:20px}
+.fill-green{background:#76b852}.fill-red{background:#d9534f}.fill-gray{background:#8d9398}
+.goal-top{display:flex;justify-content:space-between;font-size:13px;font-weight:700}
+.progress{height:11px;background:#edf0f1;border-radius:20px;overflow:hidden;margin:14px 0 9px}
+.progress-bar{height:100%;width:50.8%;background:#9be15d;border-radius:20px}
+.goal-meta{display:flex;justify-content:space-between;color:#7a8086;font-size:11px}
+.list{display:grid;gap:9px}
+.row{background:#fff;border:1px solid #e6e8ea;border-radius:13px;padding:13px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.row strong{font-size:13px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:235px}
+.row small{font-size:10px;color:#7a8086;display:block;margin-top:4px}
+.row b{font-size:13px;white-space:nowrap}
+.account-balance{font-size:20px;font-weight:800}
+.notice{font-size:11px;line-height:1.45;color:#725518;background:#fff7e6;border:1px solid #efd7a3;border-radius:12px;padding:11px}
+.footer{text-align:center;color:#8a9095;font-size:10px;padding:10px 0 0}
+@media(max-width:360px){
+main{padding-left:12px;padding-right:12px}
+.hero-value{font-size:30px}
+.value{font-size:18px}
+.row strong{max-width:180px}
+}
+</style>
+
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#111315">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Finance">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+</head>
+<body>
+<main>
+  <div class="top">
+    <div>
+      <div class="brand">FINANCE</div>
+      <h1>Visão geral</h1>
+    </div>
+    <div class="month">Outubro 2026</div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-label">SALDO DISPONÍVEL AGORA</div>
+    <div class="hero-value">R$ 4.278,00</div>
+    <div class="hero-sub">Nubank + Mercado Pago</div>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <div class="label">Receitas previstas</div>
+      <div class="value green">R$ 1.700,00</div>
+      <div class="note">este mês</div>
+    </div>
+    <div class="card">
+      <div class="label">Despesas lançadas</div>
+      <div class="value red">R$ 6.585,50</div>
+      <div class="note">9 lançamentos</div>
+    </div>
+    <div class="card">
+      <div class="label">Contas recorrentes</div>
+      <div class="value">R$ 1.844,00</div>
+      <div class="note">aluguel + internet</div>
+    </div>
+    <div class="card">
+      <div class="label">Saldo projetado</div>
+      <div class="value red">R$ -2.451,50</div>
+      <div class="note">após lançamentos</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Fluxo de outubro</h2>
+    <div class="panel">
+      <div class="flow-row">
+        <div class="flow-top"><span>Receitas</span><b class="green">R$ 1.700,00</b></div>
+        <div class="track"><div class="fill fill-green" style="width:25.8%"></div></div>
+      </div>
+      <div class="flow-row">
+        <div class="flow-top"><span>Despesas lançadas</span><b class="red">R$ 6.585,50</b></div>
+        <div class="track"><div class="fill fill-red" style="width:100%"></div></div>
+      </div>
+      <div class="flow-row">
+        <div class="flow-top"><span>Recorrências</span><b>R$ 1.844,00</b></div>
+        <div class="track"><div class="fill fill-gray" style="width:28%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Meta financeira</h2>
+    <div class="panel">
+      <div class="goal-top"><span>Dinheiro guardado</span><span>50.8%</span></div>
+      <div class="progress"><div class="progress-bar"></div></div>
+      <div class="goal-meta"><span>R$ 3.100,00 guardados</span><span>Meta R$ 6.100,00</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Minhas contas</h2>
+    <div class="list">
+      <div class="row">
+        <div><strong>Conta principal</strong><small>Nubank · •••• 8213</small></div>
+        <b class="green">R$ 1.178,00</b>
+      </div>
+      <div class="row">
+        <div><strong>Dinheiro guardado com a Laura</strong><small>Mercado Pago · •••• 2104</small></div>
+        <b class="green">R$ 3.100,00</b>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Próximas contas</h2>
+    <div class="list">
+      <div class="row">
+        <div><strong>Aluguel apartamento</strong><small>Vence em 10/10/2026</small></div>
+        <b>R$ 1.712,00</b>
+      </div>
+      <div class="row">
+        <div><strong>Internet</strong><small>Vence em 20/10/2026</small></div>
+        <b>R$ 132,00</b>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Despesas de outubro</h2>
+    <div class="list">
+      <div class="expense-row"><div><strong>Contas Laura</strong><small>05/10/2026 · À vista</small></div><b class="red">R$ 64,00</b></div><div class="expense-row"><div><strong>Other</strong><small>09/10/2026 · À vista</small></div><b class="red">R$ 800,00</b></div><div class="expense-row"><div><strong>Contas Laura</strong><small>10/10/2026 · À vista</small></div><b class="red">R$ 937,00</b></div><div class="expense-row"><div><strong>Contas Laura</strong><small>10/10/2026 · À vista</small></div><b class="red">R$ 950,00</b></div><div class="expense-row"><div><strong>Contas Laura</strong><small>12/10/2026 · À vista</small></div><b class="red">R$ 1.477,00</b></div><div class="expense-row"><div><strong>Contas Laura</strong><small>15/10/2026 · À vista</small></div><b class="red">R$ 197,50</b></div><div class="expense-row"><div><strong>Contas Laura</strong><small>17/10/2026 · À vista</small></div><b class="red">R$ 204,00</b></div><div class="expense-row"><div><strong>Contas Laura</strong><small>21/10/2026 · À vista</small></div><b class="red">R$ 856,00</b></div><div class="expense-row"><div><strong>Cartão mãe</strong><small>25/10/2026 · À vista</small></div><b class="red">R$ 1.100,00</b></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="notice">A projeção considera o saldo informado, a receita de R$ 1.700,00, as despesas lançadas e as recorrências cadastradas. É uma previsão de caixa, não um saldo bancário em tempo real.</div>
+  </section>
+
+  <div class="footer">Finance · Dashboard pessoal</div>
+</main>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').catch(function(){});
+}
+</script>
+</body>
+</html>
